@@ -24,21 +24,21 @@ fn main() {
     let arr: [i32; 5] = [1, 8, 5, 4, 6];
     let strs = String::from("Amazon");
 
-    println!("sByte: ", sByte);
-    println!("sShort: ", sShort);
-    println!("sInt: ", sInt);
-    println!("sLInt: ", sLInt);
-    println!("sDLInt: ", sDLInt);
-    println!("uByte: ", uByte);
-    println!("uShort: ", uShort);
-    println!("uInt: ", uInt);
-    println!("ulInt: ", ulInt);
-    println!("uDLInt: ", uDLInt);
-    println!("flt: ", flt);
-    println!("dlft: ", dlft);
-    println!("char: ", c);
-    println!("flag: ", flag);
-    println!("tupl: ", tupl);
-    println!("arr: ", arr);
-    println!("strs: ", strs);
+    println!("sByte: {}", sByte);
+    println!("sShort: {}", sShort);
+    println!("sInt: {}", sInt);
+    println!("sLInt: {}", sLInt);
+    println!("sDLInt: {}", sDLInt);
+    println!("uByte: {}", uByte);
+    println!("uShort: {}", uShort);
+    println!("uInt: {}", uInt);
+    println!("ulInt: {}", ulInt);
+    println!("uDLInt: {}", uDLInt);
+    println!("flt: {}", flt);
+    println!("dlft: {}", dlft);
+    println!("char: {}", c);
+    println!("flag: {}", flag);
+    println!("tupl: {:?}", tupl);
+    println!("arr: {:?}", arr);
+    println!("strs: {}", strs);
 }

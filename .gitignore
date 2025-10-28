@@ -4,3 +4,45 @@
 **/*/target
 **/*/*.class
 
+## Build Folders
+bin/
+obj/
+
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+
+## Compiled Binaries
+*.dll
+*.exe
+*.pdb
+*.app
+*.cache
+
+## NuGet Packages
+*.nupkg
+packages/
+# Uncomment if you do not want to commit NuGet restore results
+# *.snupkg
+
+## Logs
+*.log
+
+## Temporary Files
+*.tmp
+*.temp
+
+## OS Specific
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+

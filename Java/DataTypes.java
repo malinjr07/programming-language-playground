@@ -1,5 +1,7 @@
 // Statically Typed Programming Language
 
+import java.util.Arrays;
+
 public class DataTypes {
     public static void main(String[] args) {
         // Primitive Data Types
@@ -28,7 +30,7 @@ public class DataTypes {
         String lng = null;
 
         System.err.println("str :" + str);
-        System.err.println("intArr: " + intArr);
+        System.err.println("intArr: " + Arrays.toString(intArr));
         System.err.println("null lng: " + lng);
 
     }
