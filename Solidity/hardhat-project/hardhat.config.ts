@@ -23,18 +23,21 @@ const config: HardhatUserConfig = {
   },
   networks: {
     hardhatMainnet: {
-      type: "edr-simulated",
-      chainType: "l1",
+      // Local Hardhat network with mainnet fork
+      type: "edr-simulated", // EDR (Ethereum Development Runtime) simulation
+      chainType: "l1", // Layer 1 chain
     },
     hardhatOp: {
-      type: "edr-simulated",
-      chainType: "op",
+      // Local Hardhat network with Optimism fork
+      type: "edr-simulated", // EDR simulation
+      chainType: "op", // Optimism chain
     },
     sepolia: {
-      type: "http",
-      chainType: "l1",
-      url: configVariable("SEPOLIA_RPC_URL"),
-      accounts: [configVariable("SEPOLIA_PRIVATE_KEY")],
+      // Sepolia testnet configuration
+      type: "http", // RPC type
+      chainType: "l1", // Layer 1 chain
+      url: configVariable("SEPOLIA_RPC_URL"), // RPC URL from environment
+      accounts: [configVariable("SEPOLIA_PRIVATE_KEY")], // Private keys
     },
   },
 };
