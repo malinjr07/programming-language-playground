@@ -45,4 +45,6 @@ packages/
 Thumbs.db
 desktop.ini
 
+**/*.jar
+
 

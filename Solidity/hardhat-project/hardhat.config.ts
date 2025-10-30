@@ -31,6 +31,7 @@ const config: HardhatUserConfig = {
       // Local Hardhat network with Optimism fork
       type: "edr-simulated", // EDR simulation
       chainType: "op", // Optimism chain
+      chainId: 31337, // Default local chain ID
     },
     sepolia: {
       // Sepolia testnet configuration
